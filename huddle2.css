@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+image {
+  width: 100%;
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+header {
+  background-image: url(images/bg-hero-desktop.svg);
+  background-color: hsl(193, 100%, 96%);
+  padding: 40px 60px;
+}
+  
+.head {
+  background-image:url(./images/bg-hero-desktop.svg);
+  background-color: hsl(193, 100%, 96%);
+  background-size: cover;
+  height: 500px;
+} 
+
+
+.logo {
+  margin: 3px;
+  width: 200px;
+}
+.huddle1 {
+  width: 55%;
+  float: right;
+  /* margin: 10px; */
+  /* padding: 5px; */
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.butt1 {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  box-shadow:0px 3px 16px rgba(0, 0, 0, 0.12);
+  font-weight: bold;
+  padding: 10px 60px;
+  
+  
+}
+#butt1 {
+  text-decoration:none ;
+  color: hsl(208, 11%, 55%);
+}
+.butt2 {
+  border: 1px solid hsl(322, 100%, 66%);
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 30px;
+  box-shadow:0px 3px 16px rgba(0, 0, 0, 0.12);
+  color: aliceblue;
+  padding: 13px 65px;
+  font-weight: bold;
+}
+.sec-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0px 20px ;
+}
+.para {
+  width: 45%;
+
+}
+.para1 h1 {
+  font-size: 42px;
+  padding-right: 40px;
+  margin: 25px 0px;
+}
+.para1 p{
+  padding-right: 40px;
+  margin:  0px  25px;
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 80px 40px;
+
+}
+.sec-2  ,.sec-3,.sec-4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 10px 50px 66px;
+  box-shadow:0px 3px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 20px;
+  margin: 20px;
+}
+.para2,.para4 ,.para3{
+  padding-left: 70px;
+}
+
+.services img {
+  max-width: 100%;
+  /* width: 520px; */
+}
+.services p {
+  width: 93%;
+
+}
+
+
+.ready { 
+  position: relative;
+  max-width: 100%;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: white;
+  box-shadow:0px 3px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 20px;
+  padding: 60px 0px ;
+
+  top: 100px;
+  text-align: center;
+}
+.ready h1 {
+  margin-bottom: 15px;
+
+}
+
+#button2 {
+
+  padding:24px  ;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+#button2:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  padding: 200px 100px 30px;
+  color: aliceblue;
+}
+.sec-5 {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  color: aliceblue;
+  min-width: 40%;
+  width: 40%;
+}
+.sec-5 li {
+  margin-bottom: 20px;
+  padding-right: 0%;
+}
+.sec-5 img {
+  margin-top: 40px;
+  margin-right: 20px;
+  display: flex;
+  align-self: start;
+}
+
+.footer-logo {
+  width: 250px;
+}
+.ul-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+ 
+}
+.a-about {
+  color: aliceblue;
+}
+
+.a-about:hover {
+  text-decoration: underline;
+}
+.social {
+  width: 20%;
+  margin-left: 30px;
+}
+
+.social a {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+.social-icons {
+  
+  display: flex;
+  justify-content: end;
+  margin: 20px;
+  padding: 20px;
+}
+.social-icons li {
+  padding: 0px 7px;
+}
+.copyright {
+  display: flex;
+  justify-content: end;
+  
+}
+
+/* @media (max-width:992px){
+  header {
+    padding: 30px 20px ;
+  }
+}
+.sec-1 {
+  flex-direction: column;
+  text-align: center;
+
+}
+.para1 {
+  width: 95%;
+}
+.huddle1 {
+  margin-top: 30px;
+  width: 95px;
+} */
